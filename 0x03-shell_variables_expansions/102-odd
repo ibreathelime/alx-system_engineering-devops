@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d, -- | cut -d, -fl
+grep -iA 3 "root" /etc/passwd
